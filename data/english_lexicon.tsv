@@ -1,0 +1,58 @@
+# English Lexicon supplement — TSV format
+# Columns: stem  POS  StemClass  [FEATURE=form ...]  [WEIGHT=N.N]
+# Demonstrates multi-POS, irregular forms, and all stem classes
+
+# Multi-POS stems (same stem, different POS)
+bank	NOUN	REG
+bank	VERB	REG
+light	NOUN	REG
+light	ADJECTIVE	REG
+light	VERB	SILENT_E
+park	NOUN	REG
+park	VERB	REG
+
+# Irregular nouns
+knife	NOUN	IRR_MOUSE	PLURAL=knives
+life	NOUN	IRR_MOUSE	PLURAL=lives
+wife	NOUN	IRR_MOUSE	PLURAL=wives
+leaf	NOUN	IRR_MOUSE	PLURAL=leaves
+half	NOUN	IRR_MOUSE	PLURAL=halves
+wolf	NOUN	IRR_MOUSE	PLURAL=wolves
+loaf	NOUN	IRR_MOUSE	PLURAL=loaves
+calf	NOUN	IRR_MOUSE	PLURAL=calves
+
+# Additional Y_FINAL nouns
+spy	NOUN	Y_FINAL
+sky	NOUN	Y_FINAL
+fly	NOUN	Y_FINAL
+
+# Additional Y_FINAL verbs
+fly	VERB	Y_FINAL
+spy	VERB	REG
+
+# DOUBLE_CONS adjectives
+big	ADJECTIVE	DOUBLE_CONS
+fat	ADJECTIVE	DOUBLE_CONS
+hot	ADJECTIVE	DOUBLE_CONS
+wet	ADJECTIVE	DOUBLE_CONS
+thin	ADJECTIVE	DOUBLE_CONS
+sad	ADJECTIVE	DOUBLE_CONS
+mad	ADJECTIVE	DOUBLE_CONS
+red	ADJECTIVE	DOUBLE_CONS
+
+# Y_FINAL adjectives
+happy	ADJECTIVE	Y_FINAL
+angry	ADJECTIVE	Y_FINAL
+busy	ADJECTIVE	Y_FINAL
+easy	ADJECTIVE	Y_FINAL
+funny	ADJECTIVE	Y_FINAL
+heavy	ADJECTIVE	Y_FINAL
+messy	ADJECTIVE	Y_FINAL
+noisy	ADJECTIVE	Y_FINAL
+
+# SILENT_E adjectives
+nice	ADJECTIVE	SILENT_E
+brave	ADJECTIVE	SILENT_E
+safe	ADJECTIVE	SILENT_E
+wise	ADJECTIVE	SILENT_E
+pure	ADJECTIVE	SILENT_E

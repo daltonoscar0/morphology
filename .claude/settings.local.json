@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make analyzer:*)",
+      "Bash(./analyzer cats:*)",
+      "Bash(make clean:*)",
+      "Bash(make all:*)",
+      "Bash(./test_lex)",
+      "Bash(./test_infra)",
+      "Bash(./analyzer flies:*)",
+      "Bash(make test_lex)",
+      "Bash(./test_analyzer)",
+      "Bash(wc -l /Users/oscardalton/morphology/*.cpp /Users/oscardalton/morphology/*/*.h)",
+      "Bash(make)"
+    ]
+  }
+}
